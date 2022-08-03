@@ -1,0 +1,25 @@
+Dependencies for Project 'DES_M0_SoC_Basic_Uart', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x626176D5)(-c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I C:\Keil_v4\ARM\RV31\INC-I C:\Keil_v4\ARM\CMSIS\Include-o .\temp_files\main.o --omf_browse .\temp_files\main.crf --depend .\temp_files\main.d)
+I (C:\Keil_v4\ARM\ARMCC\include\stdio.h)(0x51C827C4)
+I (DES_M0_SoC.h)(0x62580C3B)
+I (C:\Keil_v4\ARM\ARMCC\include\math.h)(0x51C827C4)
+F (.\retarget.c)(0x623AF5B8)(-c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I C:\Keil_v4\ARM\RV31\INC-I C:\Keil_v4\ARM\CMSIS\Include-o .\temp_files\retarget.o --omf_browse .\temp_files\retarget.crf --depend .\temp_files\retarget.d)
+I (C:\Keil_v4\ARM\ARMCC\include\stdio.h)(0x51C827C4)
+I (DES_M0_SoC.h)(0x62580C3B)
+F (.\cm0dsasm.s)(0x623AF5B8)(--cpu Cortex-M0 --li --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v4\ARM\RV31\INC-I C:\Keil_v4\ARM\CMSIS\Include--list .\temp_files\cm0dsasm.lst --xref -o .\temp_files\cm0dsasm.o --depend .\temp_files\cm0dsasm.d)
+F (.\ledDisplayTestMain.c)(0x6261691C)(-c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I C:\Keil_v4\ARM\RV31\INC-I C:\Keil_v4\ARM\CMSIS\Include-o .\temp_files\leddisplaytestmain.o --omf_browse .\temp_files\leddisplaytestmain.crf --depend .\temp_files\leddisplaytestmain.d)
+I (C:\Keil_v4\ARM\ARMCC\include\stdio.h)(0x51C827C4)
+I (C:\Keil_v4\ARM\ARMCC\include\math.h)(0x51C827C4)
+I (DES_M0_SoC.h)(0x62580C3B)
+F (.\spiTestMain.c)(0x625818F4)(-c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I C:\Keil_v4\ARM\RV31\INC-I C:\Keil_v4\ARM\CMSIS\Include-o .\temp_files\spitestmain.o --omf_browse .\temp_files\spitestmain.crf --depend .\temp_files\spitestmain.d)
+I (C:\Keil_v4\ARM\ARMCC\include\stdio.h)(0x51C827C4)
+I (DES_M0_SoC.h)(0x62580C3B)
+F (.\main-CMSIS.c)(0x623AF5B8)(-c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I C:\Keil_v4\ARM\RV31\INC-I C:\Keil_v4\ARM\CMSIS\Include-o .\temp_files\main-cmsis.o --omf_browse .\temp_files\main-cmsis.crf --depend .\temp_files\main-cmsis.d)
+I (C:\Keil_v4\ARM\ARMCC\include\stdio.h)(0x51C827C4)
+I (ARMCM0.h)(0x623AF5B8)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm0.h)(0x532C6842)
+I (C:\Keil_v4\ARM\ARMCC\include\stdint.h)(0x51C827C4)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x532C6842)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x532C6842)
+I (system_ARMCM0.h)(0x623AF5B8)
+I (DES_M0_SoC.h)(0x62580C3B)

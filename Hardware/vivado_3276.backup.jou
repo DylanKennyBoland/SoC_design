@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sat Mar 20 13:42:23 2021
+# Process ID: 2676
+# Log file: C:/Users/lab/Documents/DES_SoC_2021/Hardware/vivado.log
+# Journal file: C:/Users/lab/Documents/DES_SoC_2021/Hardware\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lab/Documents/DES_SoC_2021/Hardware/DemoSystem.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_gpio
+update_compile_order -fileset sim_uart
+update_compile_order -fileset sources_1

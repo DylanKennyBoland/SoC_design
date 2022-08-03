@@ -1,0 +1,9 @@
+.\temp_files\main-cmsis.o: main-CMSIS.c
+.\temp_files\main-cmsis.o: C:\Keil_v4\ARM\ARMCC\bin\..\include\stdio.h
+.\temp_files\main-cmsis.o: ARMCM0.h
+.\temp_files\main-cmsis.o: C:\Keil_v4\ARM\CMSIS\Include\core_cm0.h
+.\temp_files\main-cmsis.o: C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h
+.\temp_files\main-cmsis.o: C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h
+.\temp_files\main-cmsis.o: C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h
+.\temp_files\main-cmsis.o: system_ARMCM0.h
+.\temp_files\main-cmsis.o: DES_M0_SoC.h

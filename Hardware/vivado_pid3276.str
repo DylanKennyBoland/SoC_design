@@ -1,0 +1,1104 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 3276
+
+Current time: 	3/23/22 9:35:11 AM GMT
+Time zone: 	Greenwich Mean Time (Europe/London)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1200
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	C:/Xilinx/Vivado/2015.2/tps/win64/jre
+
+User name: 	lab
+User directory: C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware
+User country: 	IE
+User language: 	en
+User locale: 	en_IE
+
+Vivado preferences path: C:/Users/lab/AppData/Roaming/Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: C:/Users/lab/AppData/Roaming/Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	120 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 357 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// cp:P (cl:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\lab\Documents\EmbeddedSystems\Wednesday\DES_SoC\DES_SoC\Hardware\DemoSystem.xpr. Version: Vivado v2015.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// Tcl Message: open_project C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.xpr 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// [GUI Memory]: 50 MB (+50095kb) [00:00:06]
+// [Engine Memory]: 357 MB (+222435kb) [00:00:06]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 53 MB (+320kb) [00:00:09]
+// [Engine Memory]: 387 MB (+13648kb) [00:00:09]
+// [GUI Memory]: 66 MB (+11058kb) [00:00:10]
+// [Engine Memory]: 424 MB (+18383kb) [00:00:11]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 454 MB (+8463kb) [00:00:12]
+// Tcl Message: open_project C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/lab/Documents/DES_SoC_2021/Hardware' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 457 MB. GUI used memory: 39 MB. Current time: 3/23/22 9:35:17 AM GMT
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: DemoSystem; location: C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 688.578 ; gain = 161.762 
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 478 MB (+1360kb) [00:00:17]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AHBliteTop (AHBliteTop.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AHBliteTop (AHBliteTop.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AHBliteTop (AHBliteTop.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// Elapsed time: 30 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AHBliteTop (AHBliteTop.v), decode - AHBDCD (AHBDCD.v)]", 6, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AHBliteTop (AHBliteTop.v), decode - AHBDCD (AHBDCD.v)]", 6, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// [GUI Memory]: 74 MB (+4269kb) [00:01:04]
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AHBuart (AHBuart.v)]", 10, true); // A:k (H:JPanel, cl:JFrame) - Node
+// Elapsed time: 63 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AHBliteTop.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// [GUI Memory]: 79 MB (+1277kb) [00:02:34]
+selectCodeEditor("AHBliteTop.v", 693, 590); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 71, 506); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 177, 542); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 106, 549); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("AHBliteTop.v", 102, 554); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 202, 559); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 83 MB (+30kb) [00:03:42]
+// Elapsed time: 23 seconds
+selectCodeEditor("AHBliteTop.v", 112, 118); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 454, 271); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 116, 110); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 105, 114); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 111, 113); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 111, 113); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 103, 437); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 214, 461); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 220, 449); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 315, 604); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 87, 530); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 110, 461); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 115, 451); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 107, 432); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 266, 473); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 282, 589); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 301, 611); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("AHBliteTop.v", 267, 378); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 560, 362); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 319, 316); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 111, 307); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 88 MB (+1207kb) [00:05:18]
+typeControlKey((HResource) null, "AHBliteTop.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 274, 307); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 233, 315); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 307, 314); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 275, 316); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 388, 311); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 362, 319); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 241, 314); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 372, 316); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 392, 311); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 251, 312); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 264, 352); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 110, 344); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 265, 345); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 279, 316); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 350, 345); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 438, 352); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("AHBliteTop.v", 112, 362); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 309, 360); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 415, 362); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 519, 365); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 565, 386); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 105 seconds
+selectCodeEditor("AHBliteTop.v", 136, 105); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 35 seconds
+selectCodeEditor("AHBliteTop.v", 196, 555); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+typeControlKey((HResource) null, "AHBliteTop.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("AHBliteTop.v", 460, 550); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("AHBliteTop.v", 192, 572); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 200, 577); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 45 seconds
+selectCodeEditor("AHBliteTop.v", 198, 373, false, false, true, false, false); // bj:J (JPanel:JComponent, cl:JFrame) - Alt Key
+// Elapsed time: 38 seconds
+selectCodeEditor("AHBliteTop.v", 113, 248); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 219, 571); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 92 MB (+245kb) [00:11:44]
+// Elapsed time: 36 seconds
+selectCodeEditor("AHBliteTop.v", 146, 126); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("AHBliteTop.v", 365, 376); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 204, 526); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+typeControlKey((HResource) null, "AHBliteTop.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 167 seconds
+selectCodeEditor("AHBliteTop.v", 42, 646); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 48, 545); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 52, 532); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 39 seconds
+selectCodeEditor("AHBliteTop.v", 70, 664); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("AHBliteTop.v", 11, 488); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 49, 365); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 100, 77); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 87, 439); // bj:J (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 501 MB. GUI used memory: 51 MB. Current time: 3/23/22 9:52:10 AM GMT
+typeControlKey((HResource) null, "AHBliteTop.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 239, 569); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("AHBliteTop.v", 267, 484); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 279, 604); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 302, 622); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("AHBliteTop.v", 103, 366); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 53 seconds
+selectCodeEditor("AHBliteTop.v", 212, 605); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 83 seconds
+selectCodeEditor("AHBliteTop.v", 25, 401); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 40 seconds
+selectCodeEditor("AHBliteTop.v", 126, 597); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("AHBliteTop.v", 228, 608); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 223, 606); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 233, 621); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 226, 605); // bj:J (JPanel:JComponent, cl:JFrame)
+// [Engine Memory]: 502 MB (+855kb) [00:21:14]
+selectCodeEditor("AHBliteTop.v", 193, 624); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 132, 627); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("AHBliteTop.v", 134, 643); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 97 seconds
+selectCodeEditor("AHBliteTop.v", 103, 347); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 98, 351); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 163, 351); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 113, 351); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 531, 347); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 517, 351); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 510, 352); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 515, 349); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 118, 366); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("AHBliteTop.v", 113, 368); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 139, 368); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 473, 366); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 476, 367); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 510, 352); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AHBDCD.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 30 seconds
+selectCodeEditor("AHBDCD.v", 27, 345); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBDCD.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBDCD.v", 103, 504); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBDCD.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBDCD.v", 55, 515); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("AHBDCD.v", 59, 512); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBDCD.v", 124, 631); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBDCD.v", 64, 523); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 98 MB (+1127kb) [00:26:15]
+// Elapsed time: 34 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AHBliteTop.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 148, 93); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AHBDCD.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("AHBDCD.v", 267, 472); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBDCD.v", 278, 475); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBDCD.v", 183, 488); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBDCD.v", 108, 503); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBDCD.v", 27, 434); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBDCD.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBDCD.v", 103, 510); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBDCD.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBDCD.v", 139, 538); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("AHBDCD.v", 26, 513); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("AHBDCD.v", 129, 517); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBDCD.v", 29, 521); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBDCD.v", 65, 532); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBDCD.v", 250, 574); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBDCD.v", 168, 589); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AHBliteTop.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AHBDCD.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AHBliteTop.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 152, 367); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 144, 365); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AHBliteTop (AHBliteTop.v), mux - AHBMUX (AHBMUX.v)]", 7, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, AHBliteTop (AHBliteTop.v), mux - AHBMUX (AHBMUX.v)]", 7, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Elapsed time: 37 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AHBDCD.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 26 seconds
+selectCodeEditor("AHBDCD.v", 250, 401); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBDCD.v", 99, 112); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AHBMUX.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AHBliteTop.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 67 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AHBDCD.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Elaboration Settings]", 13, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ELABORATION_SETTINGS
+// Project Settings: addNotify
+// Run Command: PAResourceCommand.PACommandNames_ELABORATION_SETTINGS
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Elaboration Settings]", 13, false, false, false, false, false, true); // w:Y (v:H, cl:JFrame) - Double Click
+dismissDialog("Project Settings"); // k:br (cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 14, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// cp:P (cl:JFrame):  Open Elaborated Design : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run blk_mem_8Kword_synth_1 
+// TclEventType: LOAD_FEATURE
+// Tcl Message: launch_runs blk_mem_8Kword_synth_1 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_8Kword'... 
+// TclEventType: LOAD_FEATURE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Mar 23 10:06:28 2022] Launched blk_mem_8Kword_synth_1... Run output will be captured here: C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/blk_mem_8Kword_synth_1/runme.log 
+// Tcl Message: wait_on_run blk_mem_8Kword_synth_1 
+// Tcl Message: [Wed Mar 23 10:06:29 2022] Waiting for blk_mem_8Kword_synth_1 to finish... 
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 59 MB. Current time: 3/23/22 10:06:31 AM GMT
+// Tcl Message: [Wed Mar 23 10:06:34 2022] Waiting for blk_mem_8Kword_synth_1 to finish... 
+// Tcl Message: [Wed Mar 23 10:06:39 2022] Waiting for blk_mem_8Kword_synth_1 to finish... 
+// [Engine Memory]: 537 MB (+9491kb) [00:31:36]
+// Tcl Message: [Wed Mar 23 10:06:44 2022] Waiting for blk_mem_8Kword_synth_1 to finish... 
+// Tcl Message: [Wed Mar 23 10:06:54 2022] Waiting for blk_mem_8Kword_synth_1 to finish... 
+// Tcl Message: [Wed Mar 23 10:07:04 2022] Waiting for blk_mem_8Kword_synth_1 to finish... 
+// Tcl Message: [Wed Mar 23 10:07:14 2022] Waiting for blk_mem_8Kword_synth_1 to finish... 
+// Tcl Message: [Wed Mar 23 10:07:24 2022] Waiting for blk_mem_8Kword_synth_1 to finish... 
+// Tcl Message: [Wed Mar 23 10:07:44 2022] Waiting for blk_mem_8Kword_synth_1 to finish... 
+// TclEventType: RUN_COMPLETED
+// Tcl Message: [Wed Mar 23 10:07:54 2022] blk_mem_8Kword_synth_1 finished 
+// Tcl Message: wait_on_run: Time (s): cpu = 00:00:02 ; elapsed = 00:01:25 . Memory (MB): peak = 723.684 ; gain = 15.691 
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 -rtl_skip_ip -rtl_skip_constraints 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 -rtl_skip_ip -rtl_skip_constraints Starting synth_design Using part: xc7a100tcsg324-1 Top: AHBliteTop 
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: ERROR: [Synth 8-2715] syntax error near . [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBliteTop.v:270] ERROR: [Synth 8-2715] syntax error near . [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBliteTop.v:291] ERROR: [Synth 8-2715] syntax error near . [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBliteTop.v:292] 
+// Tcl Message: INFO: [Synth 8-2350] module AHBliteTop ignored due to previous errors [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBliteTop.v:15] 
+// Tcl Message: Failed to read verilog 'C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBliteTop.v' 
+// Tcl Message: 1 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered. synth_design failed 
+// Tcl Message: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details 
+// [Engine Memory]: 564 MB (+420kb) [00:32:53]
+// HMemoryUtils.trashcanNow. Engine heap size: 564 MB. GUI used memory: 61 MB. Current time: 3/23/22 10:07:56 AM GMT
+// 'dm' command handler elapsed time: 90 seconds
+// N:a (cl:JFrame): Critical Messages: addNotify
+// Elapsed time: 90 seconds
+dismissDialog("Open Elaborated Design"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 597 MB (+5507kb) [00:32:56]
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AHBliteTop.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("AHBliteTop.v", 322, 576); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 306, 565); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("AHBliteTop.v", 83, 643); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 14 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+// Elapsed time: 14 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+selectCheckBox(PAResourceItoN.MsgView_ERROR_MESSAGES, (String) null, false); // h:JCheckBox (JPanel:JComponent, cl:JFrame): FALSE
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, synth_design -rtl -name rtl_1 -rtl_skip_ip -rtl_skip_constraints. , [Synth 8-2715] syntax error near . [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBliteTop.v:270]. ]", 2); // ae:k (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 46 seconds
+selectCodeEditor("AHBliteTop.v", 27, 609); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("AHBliteTop.v", 28, 436); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 104 MB (+872kb) [00:35:59]
+// Elapsed time: 35 seconds
+selectCodeEditor("AHBliteTop.v", 125, 371); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 125, 371, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("AHBliteTop.v", 125, 371); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 42 seconds
+selectCodeEditor("AHBliteTop.v", 85, 591); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 85, 614); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 84, 608); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 84, 623); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 86, 642); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, N:a)
+dismissDialog("Critical Messages"); // N:a (cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 14, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// aR:ah (cl:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:ah)
+// cp:P (cl:JFrame):  Save Constraints : addNotify
+// cp:P (cl:JFrame):  Open Elaborated Design : addNotify
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // aR:ah (cl:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 -rtl_skip_ip -rtl_skip_constraints 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 -rtl_skip_ip -rtl_skip_constraints Starting synth_design Using part: xc7a100tcsg324-1 Top: AHBliteTop 
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: ERROR: [Synth 8-2798] unexpected EOF [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBliteTop.v:296] 
+// Tcl Message: Failed to read verilog 'C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBliteTop.v' 
+// Tcl Message: 0 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered. synth_design failed 
+// Tcl Message: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details 
+// 'dm' command handler elapsed time: 4 seconds
+// N:a (cl:JFrame): Critical Messages: addNotify
+dismissDialog("Open Elaborated Design"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("AHBliteTop.v", 118, 670); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, N:a)
+dismissDialog("Critical Messages"); // N:a (cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 48, 471); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 75, 470); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 115, 699); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("AHBliteTop.v", 77, 414); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 79, 415); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 64, 480); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 136, 366); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 14, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// aR:ah (cl:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:ah)
+// cp:P (cl:JFrame):  Save Constraints : addNotify
+// cp:P (cl:JFrame):  Open Elaborated Design : addNotify
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // aR:ah (cl:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 -rtl_skip_ip -rtl_skip_constraints 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 -rtl_skip_ip -rtl_skip_constraints Starting synth_design Using part: xc7a100tcsg324-1 Top: AHBliteTop 
+// TclEventType: ELABORATE_FINISH
+// [Engine Memory]: 703 MB (+79172kb) [00:38:57]
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 735 MB. GUI used memory: 63 MB. Current time: 3/23/22 10:14:02 AM GMT
+// [Engine Memory]: 764 MB (+27562kb) [00:38:59]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 812 MB (+9689kb) [00:39:01]
+// TclEventType: DESIGN_NEW
+// [GUI Memory]: 109 MB (+315kb) [00:39:01]
+// Schematic: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:02:48 ; elapsed = 00:39:08 . Memory (MB): peak = 788.508 ; gain = 612.246 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'AHBliteTop' [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBliteTop.v:15] 
+// Tcl Message: 	Parameter BAD_DATA bound to: -559038737 - type: integer  
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'clock_gen' [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/clock_gen.v:62] INFO: [Synth 8-638] synthesizing module 'IBUF' [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:10256] 
+// Tcl Message: 	Parameter CAPACITANCE bound to: DONT_CARE - type: string  	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string  	Parameter IBUF_LOW_PWR bound to: TRUE - type: string  	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string  	Parameter IOSTANDARD bound to: DEFAULT - type: string  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'IBUF' (1#1) [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:10256] INFO: [Synth 8-638] synthesizing module 'PLLE2_ADV' [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:26066] 
+// Tcl Message: 	Parameter BRIGHTNESS bound to: 3'b100  
+// Tcl Message: 	Parameter ADDR_WIDTH bound to: 15 - type: integer  
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'uart_RXonly' [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/uart_RXonly.v:19] 
+// Tcl Message: 	Parameter INCR bound to: 20'b00000000110010010101  	Parameter INIT bound to: 2'b00  	Parameter IDLE bound to: 2'b01  	Parameter RECV bound to: 2'b10  	Parameter FINI bound to: 2'b11  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'uart_RXonly' (10#1) [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/uart_RXonly.v:19] INFO: [Synth 8-638] synthesizing module 'ram_loader' [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/ram_loader.v:19] 
+// Tcl Message: 	Parameter ADDR_WIDTH bound to: 15 - type: integer  	Parameter INIT bound to: 2'b00  	Parameter IDLE bound to: 2'b01  	Parameter ACTIVE bound to: 2'b10  	Parameter ERROR bound to: 2'b11  	Parameter ENDL bound to: 2'b00  	Parameter HEX bound to: 2'b01  	Parameter QUIT bound to: 2'b10  	Parameter OTHER bound to: 2'b11  
+// Tcl Message: 	Parameter ADDR_WIDTH bound to: 14 - type: integer  
+// Tcl Message: 	Parameter DWIDTH bound to: 8 - type: integer  	Parameter AWIDTH bound to: 4 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'FIFO' (17#1) [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/fifo.v:43] INFO: [Synth 8-638] synthesizing module 'uart' [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/uart.v:18] 
+// Tcl Message: 	Parameter INCR bound to: 20'b00000000110010010101  	Parameter INIT bound to: 2'b00  	Parameter IDLE bound to: 2'b01  	Parameter RECV bound to: 2'b10  	Parameter FINI bound to: 2'b11  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'uart' (18#1) [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/uart.v:18] INFO: [Synth 8-256] done synthesizing module 'AHBuart' (19#1) [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBuart.v:27] INFO: [Synth 8-256] done synthesizing module 'AHBliteTop' (20#1) [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBliteTop.v:15] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:02:49 ; elapsed = 00:39:09 . Memory (MB): peak = 788.508 ; gain = 612.246 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:49 ; elapsed = 00:39:09 . Memory (MB): peak = 788.508 ; gain = 612.246 --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Device 21-403] Loading part xc7a100tcsg324-1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:03:00 ; elapsed = 00:39:17 . Memory (MB): peak = 976.406 ; gain = 800.145 
+// Tcl Message: 46 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 976.406 ; gain = 187.898 
+// 'dm' command handler elapsed time: 13 seconds
+// Elapsed time: 12 seconds
+dismissDialog("Open Elaborated Design"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// PAPropertyPanels.initPanels (UART (AHBuart)) elapsed time: 0.2s
+// Elapsed time: 19 seconds
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+// [Engine Memory]: 853 MB (+573kb) [00:39:26]
+// HMemoryUtils.trashcanNow. Engine heap size: 854 MB. GUI used memory: 89 MB. Current time: 3/23/22 10:14:33 AM GMT
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+// PAPropertyPanels.initPanels (dec_i (RTL_ROM)) elapsed time: 0.7s
+// [Engine Memory]: 902 MB (+6549kb) [00:39:40]
+// HMemoryUtils.trashcanNow. Engine heap size: 904 MB. GUI used memory: 91 MB. Current time: 3/23/22 10:14:47 AM GMT
+// [GUI Memory]: 117 MB (+1633kb) [00:39:52]
+// [GUI Memory]: 124 MB (+1196kb) [00:39:58]
+// PAPropertyPanels.initPanels (<const0>) elapsed time: 0.2s
+// HMemoryUtils.trashcanNow. Engine heap size: 927 MB. GUI used memory: 94 MB. Current time: 3/23/22 10:15:17 AM GMT
+// [GUI Memory]: 132 MB (+2213kb) [00:40:34]
+// Elapsed time: 91 seconds
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[AHBliteTop, Nets (265), RsRx]", 113, false); // ba:bm (JViewport:JComponent, cl:JFrame)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[AHBliteTop, Nets (265), RsTx]", 114, false); // ba:bm (JViewport:JComponent, cl:JFrame)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[AHBliteTop, Nets (265), RsRx]", 113, false); // ba:bm (JViewport:JComponent, cl:JFrame)
+// [GUI Memory]: 141 MB (+2769kb) [00:41:19]
+// Elapsed time: 49 seconds
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+// Elapsed time: 15 seconds
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+// Elapsed time: 28 seconds
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+// [Engine Memory]: 973 MB (+27435kb) [00:43:17]
+// HMemoryUtils.trashcanNow. Engine heap size: 973 MB. GUI used memory: 105 MB. Current time: 3/23/22 10:18:23 AM GMT
+// Elapsed time: 72 seconds
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[AHBliteTop, Nets (265), HREADYOUT_ram]", 102, false); // ba:bm (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[AHBliteTop, Nets (265), HREADYOUT_rom]", 103, false); // ba:bm (JViewport:JComponent, cl:JFrame)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[AHBliteTop, Nets (265), HREADYOUT_ram]", 102, false); // ba:bm (JViewport:JComponent, cl:JFrame)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[AHBliteTop, Nets (265), HREADY]", 101, false); // ba:bm (JViewport:JComponent, cl:JFrame)
+// [GUI Memory]: 148 MB (+187kb) [00:44:56]
+// Elapsed time: 46 seconds
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[AHBliteTop, Nets (265), HREADY]", 101, false, false, false, false, true, false); // ba:bm (JViewport:JComponent, cl:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "Net Properties..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+// Elapsed time: 10 seconds
+selectTab(RDIResource.PropertiesView_TABBED_PANE, (HResource) null, "Properties", 1); // g:JideTabbedPane (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectTab(RDIResource.PropertiesView_TABBED_PANE, (HResource) null, "Connectivity", 2); // g:JideTabbedPane (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 315 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AHBliteTop.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("AHBliteTop.v", 72, 217); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 160 MB (+3949kb) [00:53:48]
+// Elapsed time: 156 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 20, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// ap:bI (cl:JFrame): Out-of-Context module run(s) is/are Out-of-date: addNotify
+// Elapsed time: 11 seconds
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Out-of-Context module run(s) is/are Out-of-date"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run CORTEXM0DS_synth_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run blk_mem_4Kword_synth_1 
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Wed Mar 23 10:29:09 2022] Launched CORTEXM0DS_synth_1, blk_mem_4Kword_synth_1... Run output will be captured here: CORTEXM0DS_synth_1: C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/CORTEXM0DS_synth_1/runme.log blk_mem_4Kword_synth_1: C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/blk_mem_4Kword_synth_1/runme.log [Wed Mar 23 10:29:09 2022] Launched synth_1... Run output will be captured here: C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/synth_1/runme.log 
+// 'm' command handler elapsed time: 12 seconds
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Synthesis Completed: addNotify
+// [GUI Memory]: 172 MB (+4970kb) [00:56:57]
+// Elapsed time: 186 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 
+// Tcl Message: [Wed Mar 23 10:32:15 2022] Launched impl_1... Run output will be captured here: C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/impl_1/runme.log 
+// [GUI Memory]: 184 MB (+2863kb) [00:57:12]
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 194 MB (+910kb) [00:57:20]
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Implementation Completed: addNotify
+// Elapsed time: 88 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a:JRadioButton (JPanel:JComponent, Q:ap)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // Q:ap (cl:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Wed Mar 23 10:33:47 2022] Launched impl_1... Run output will be captured here: C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 45 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// d:P (cl:JFrame): Vivado: addNotify
+selectButton(PAResourceAtoD.ClosePlanner_NO, "No"); // a:JButton (JPanel:JComponent, d:P)
+// cp:P (cl:JFrame):  Open Implemented Design : addNotify
+dismissDialog("Vivado"); // d:P (cl:JFrame)
+// Tcl Message: open_run impl_1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// HMemoryUtils.trashcanNow. Engine heap size: 1,059 MB. GUI used memory: 127 MB. Current time: 3/23/22 10:34:40 AM GMT
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 1,061 MB (+41413kb) [00:59:36]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,061 MB. GUI used memory: 126 MB. Current time: 3/23/22 10:34:40 AM GMT
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 1,133 MB (+19939kb) [00:59:37]
+// TclEventType: DESIGN_NEW
+// Device: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 97 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds 
+// Tcl Message: INFO: [Project 1-479] Netlist was created with Vivado 2015.2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [c:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/.Xil/Vivado-3276-Eleclab86/dcp/AHBliteTop_early.xdc] Finished Parsing XDC File [c:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/.Xil/Vivado-3276-Eleclab86/dcp/AHBliteTop_early.xdc] Parsing XDC File [c:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/.Xil/Vivado-3276-Eleclab86/dcp/AHBliteTop.xdc] Finished Parsing XDC File [c:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/.Xil/Vivado-3276-Eleclab86/dcp/AHBliteTop.xdc] Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.562 . Memory (MB): peak = 1228.813 ; gain = 4.473 
+// Tcl Message: Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.562 . Memory (MB): peak = 1228.813 ; gain = 4.473 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: open_run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 1299.277 ; gain = 123.422 
+// Device view-level: 0.0
+// TclEventType: TIMING_SUMMARY_UPDATED
+// 'dm' command handler elapsed time: 11 seconds
+// TclEventType: TIMING_SUMMARY_UPDATED
+dismissDialog("Open Implemented Design"); // cp:P (cl:JFrame)
+// [Engine Memory]: 1,193 MB (+2663kb) [00:59:49]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 38, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// [Engine Memory]: 1,281 MB (+30289kb) [00:59:50]
+// Tcl Message: open_hw 
+// [Engine Memory]: 1,362 MB (+17677kb) [00:59:51]
+// RouteApi::initDelayMediator elapsed time: 12.4s
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+// [Engine Memory]: 1,503 MB (+75868kb) [00:59:55]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,503 MB. GUI used memory: 142 MB. Current time: 3/23/22 10:35:00 AM GMT
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, "Open New Target..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD
+// ae:g (cl:JFrame): Open New Hardware Target: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+// cp:P (ae:g):  Open Server : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// cp:P (ae:g):  Open Target : addNotify
+// TclEventType: HW_TARGET_CHANGE
+// Elapsed time: 12 seconds
+dismissDialog("Open Server"); // cp:P (ae:g)
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+dismissDialog("Open Target"); // cp:P (ae:g)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,558 MB. GUI used memory: 142 MB. Current time: 3/23/22 10:35:25 AM GMT
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// cp:P (ae:g):  Open Hardware Target : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server -url localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210274628288A] 
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210274628288A] 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210274628288A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/impl_1/AHBliteTop.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+// 'w' command handler elapsed time: 30 seconds
+dismissDialog("Open Hardware Target"); // cp:P (ae:g)
+dismissDialog("Open New Hardware Target"); // ae:g (cl:JFrame)
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Open Target]", 39, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 40, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a100t_0"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/impl_1/AHBliteTop.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 5 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 79 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem((HResource) null, "xc7a100t_0"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/impl_1/AHBliteTop.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 9 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// [Engine Memory]: 1,591 MB (+14096kb) [01:02:24]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,591 MB. GUI used memory: 143 MB. Current time: 3/23/22 10:37:30 AM GMT
+// Elapsed time: 58 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+selectTab((HResource) null, (HResource) null, "Serial I/O Links", 2); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+selectCheckBox(PAResourceItoN.MsgView_CRITICAL_WARNINGS, (String) null, true); // h:JCheckBox (JPanel:JComponent, cl:JFrame): TRUE
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, true); // h:JCheckBox (JPanel:JComponent, cl:JFrame): TRUE
+// Elapsed time: 26 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-3331] design AHBliteTop has unconnected port btnD. ]", 9); // ae:k (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("AHBliteTop.v", 226, 595); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 247, 573); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("AHBliteTop.v", 284, 270); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("AHBliteTop.v", 183, 264); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 176, 362); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 168, 580); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 292, 597); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 230, 369); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 175, 351); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 231, 370); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 229, 383); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 266, 470); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 206, 484); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 205, 501); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "AHBliteTop.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("AHBliteTop.v", 194, 435); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 37, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aR:ah (cl:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:ah)
+// cp:P (cl:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // aR:ah (cl:JFrame)
+dismissDialog("Save Constraints"); // cp:P (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Wed Mar 23 10:41:17 2022] Launched impl_1... Run output will be captured here: C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 20, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// ap:bI (cl:JFrame): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:bI)
+// HOptionPane Warning: 'Implementation is currently running. OK to reset anyway? (Run Synthesis)'
+dismissDialog("Run Synthesis"); // ap:bI (cl:JFrame)
+// 'm' command handler elapsed time: 6 seconds
+selectButton("PAResourceAtoD.DeleteRunsDialog_THERE_SOME_JOBS_THAT_APPEAR_TOBE_No", "No"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 30 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // Q:ap (cl:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 20, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// ap:bI (cl:JFrame): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Wed Mar 23 10:42:22 2022] Launched synth_1... Run output will be captured here: C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 36 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Synthesis Completed"); // Q:ap (cl:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+// Elapsed time: 18 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-3332] Sequential element (\\mux/APHASE_MUX_SEL_reg[2] ) is unused and will be removed from module AHBliteTop.. ]", 9); // ae:k (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 60 seconds
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-3332] Sequential element (\\mux/APHASE_MUX_SEL_reg[2] ) is unused and will be removed from module AHBliteTop.. ]", 9); // ae:k (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 24, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 
+// Tcl Message: [Wed Mar 23 10:44:50 2022] Launched impl_1... Run output will be captured here: C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Implementation Completed: addNotify
+// Elapsed time: 96 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Implementation Completed"); // Q:ap (cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 37, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Wed Mar 23 10:46:36 2022] Launched impl_1... Run output will be captured here: C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 47 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // Q:ap (cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 40, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a100t_0"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/impl_1/AHBliteTop.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// [GUI Memory]: 205 MB (+1280kb) [01:12:50]
+// Elapsed time: 1156 seconds
+selectCodeEditor("AHBliteTop.v", 178, 161); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("AHBliteTop.v", 177, 179); // bj:J (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,599 MB. GUI used memory: 142 MB. Current time: 3/23/22 11:07:34 AM GMT
+// Elapsed time: 451 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AHBMUX.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AHBDCD.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 40 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Elaborated Design]", 14, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Elaborated Design]", 14, true, false, false, false, false, true); // w:Y (v:H, cl:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Elaborated Design]", 14, true); // w:Y (v:H, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Elaborated Design]", 14, true); // w:Y (v:H, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Elaborated Design]", 14, true); // w:Y (v:H, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Elaborated Design]", 14, true, false, false, false, false, true); // w:Y (v:H, cl:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Elaborated Design]", 14, true, false, false, false, true, false); // w:Y (v:H, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_IN_NEW_WINDOW_RTL, "Open RTL in New Window"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_IN_NEW_WINDOW_RTL
+// Device: addNotify
+// Schematic: addNotify
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Synthesis Settings]", 16, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SYNTH_SETTINGS
+// Project Settings: addNotify
+// [GUI Memory]: 217 MB (+2124kb) [01:40:20]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,620 MB. GUI used memory: 142 MB. Current time: 3/23/22 11:15:25 AM GMT
+// Elapsed time: 1134 seconds
+dismissDialog("Project Settings"); // k:br (cl:JFrame)
+// [GUI Memory]: 228 MB (+268kb) [02:05:37]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,645 MB. GUI used memory: 215 MB. Current time: 3/23/22 11:45:29 AM GMT
+// [GUI Memory]: 240 MB (+18kb) [02:12:46]
+// Tcl Message: ERROR: [Labtools 27-3175] Target jsn-Nexys4-210274628288A is no longer available. Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up. Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target. 
+// Tcl Message: close_hw_target 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210274628288A 
+// [GUI Memory]: 252 MB (+969kb) [02:17:15]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,665 MB. GUI used memory: 228 MB. Current time: 3/23/22 11:55:30 AM GMT
+// [GUI Memory]: 266 MB (+723kb) [02:27:34]
+// [GUI Memory]: 279 MB (+46kb) [02:33:28]
+// [Engine Memory]: 1,674 MB (+3377kb) [02:33:30]
+// [GUI Memory]: 294 MB (+401kb) [02:39:17]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,705 MB. GUI used memory: 273 MB. Current time: 3/23/22 12:15:17 PM GMT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,711 MB. GUI used memory: 247 MB. Current time: 3/23/22 12:17:42 PM GMT

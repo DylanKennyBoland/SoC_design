@@ -1,0 +1,312 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Mar 23 09:34:45 2022
+# Process ID: 4256
+# Log file: C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/vivado.log
+# Journal file: C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/lab/Documents/DES_SoC_2021/Hardware' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 759.691 ; gain = 208.047
+reset_run blk_mem_8Kword_synth_1
+launch_runs blk_mem_8Kword_synth_1
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_8Kword'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'blk_mem_8Kword' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+[Wed Mar 23 10:06:28 2022] Launched blk_mem_8Kword_synth_1...
+Run output will be captured here: C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/blk_mem_8Kword_synth_1/runme.log
+wait_on_run blk_mem_8Kword_synth_1
+[Wed Mar 23 10:06:29 2022] Waiting for blk_mem_8Kword_synth_1 to finish...
+[Wed Mar 23 10:06:34 2022] Waiting for blk_mem_8Kword_synth_1 to finish...
+[Wed Mar 23 10:06:39 2022] Waiting for blk_mem_8Kword_synth_1 to finish...
+[Wed Mar 23 10:06:44 2022] Waiting for blk_mem_8Kword_synth_1 to finish...
+[Wed Mar 23 10:06:54 2022] Waiting for blk_mem_8Kword_synth_1 to finish...
+[Wed Mar 23 10:07:04 2022] Waiting for blk_mem_8Kword_synth_1 to finish...
+[Wed Mar 23 10:07:14 2022] Waiting for blk_mem_8Kword_synth_1 to finish...
+[Wed Mar 23 10:07:24 2022] Waiting for blk_mem_8Kword_synth_1 to finish...
+[Wed Mar 23 10:07:44 2022] Waiting for blk_mem_8Kword_synth_1 to finish...
+[Wed Mar 23 10:07:54 2022] blk_mem_8Kword_synth_1 finished
+wait_on_run: Time (s): cpu = 00:00:02 ; elapsed = 00:01:25 . Memory (MB): peak = 723.684 ; gain = 15.691
+synth_design -rtl -name rtl_1 -rtl_skip_ip -rtl_skip_constraints
+Command: synth_design -rtl -name rtl_1 -rtl_skip_ip -rtl_skip_constraints
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: AHBliteTop
+ERROR: [Synth 8-2715] syntax error near . [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBliteTop.v:270]
+ERROR: [Synth 8-2715] syntax error near . [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBliteTop.v:291]
+ERROR: [Synth 8-2715] syntax error near . [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBliteTop.v:292]
+INFO: [Synth 8-2350] module AHBliteTop ignored due to previous errors [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBliteTop.v:15]
+Failed to read verilog 'C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBliteTop.v'
+1 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -name rtl_1 -rtl_skip_ip -rtl_skip_constraints
+Command: synth_design -rtl -name rtl_1 -rtl_skip_ip -rtl_skip_constraints
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: AHBliteTop
+ERROR: [Synth 8-2798] unexpected EOF [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBliteTop.v:296]
+Failed to read verilog 'C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBliteTop.v'
+0 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -name rtl_1 -rtl_skip_ip -rtl_skip_constraints
+Command: synth_design -rtl -name rtl_1 -rtl_skip_ip -rtl_skip_constraints
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: AHBliteTop
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:02:48 ; elapsed = 00:39:08 . Memory (MB): peak = 788.508 ; gain = 612.246
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'AHBliteTop' [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBliteTop.v:15]
+	Parameter BAD_DATA bound to: -559038737 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'clock_gen' [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/clock_gen.v:62]
+INFO: [Synth 8-638] synthesizing module 'IBUF' [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:10256]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUF' (1#1) [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:10256]
+INFO: [Synth 8-638] synthesizing module 'PLLE2_ADV' [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:26066]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT bound to: 8 - type: integer 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE bound to: 16 - type: integer 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: float 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-256] done synthesizing module 'PLLE2_ADV' (2#1) [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:26066]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (3#1) [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'clock_gen' (4#1) [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/clock_gen.v:62]
+INFO: [Synth 8-638] synthesizing module 'reset_gen' [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/reset_gen.v:20]
+INFO: [Synth 8-256] done synthesizing module 'reset_gen' (5#1) [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/reset_gen.v:20]
+INFO: [Synth 8-638] synthesizing module 'status_ind' [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/status_ind.v:20]
+	Parameter BRIGHTNESS bound to: 3'b100 
+INFO: [Synth 8-256] done synthesizing module 'status_ind' (6#1) [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/status_ind.v:20]
+INFO: [Synth 8-638] synthesizing module 'CORTEXM0DS' [c:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/.Xil/Vivado-3276-Eleclab86/realtime/CORTEXM0DS_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'CORTEXM0DS' (7#1) [c:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/.Xil/Vivado-3276-Eleclab86/realtime/CORTEXM0DS_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'AHBDCD' [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBDCD.v:39]
+INFO: [Synth 8-256] done synthesizing module 'AHBDCD' (8#1) [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBDCD.v:39]
+INFO: [Synth 8-638] synthesizing module 'AHBMUX' [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBMUX.v:39]
+INFO: [Synth 8-256] done synthesizing module 'AHBMUX' (9#1) [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBMUX.v:39]
+INFO: [Synth 8-638] synthesizing module 'AHBrom' [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBrom.v:17]
+	Parameter ADDR_WIDTH bound to: 15 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'uart_RXonly' [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/uart_RXonly.v:19]
+	Parameter INCR bound to: 20'b00000000110010010101 
+	Parameter INIT bound to: 2'b00 
+	Parameter IDLE bound to: 2'b01 
+	Parameter RECV bound to: 2'b10 
+	Parameter FINI bound to: 2'b11 
+INFO: [Synth 8-256] done synthesizing module 'uart_RXonly' (10#1) [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/uart_RXonly.v:19]
+INFO: [Synth 8-638] synthesizing module 'ram_loader' [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/ram_loader.v:19]
+	Parameter ADDR_WIDTH bound to: 15 - type: integer 
+	Parameter INIT bound to: 2'b00 
+	Parameter IDLE bound to: 2'b01 
+	Parameter ACTIVE bound to: 2'b10 
+	Parameter ERROR bound to: 2'b11 
+	Parameter ENDL bound to: 2'b00 
+	Parameter HEX bound to: 2'b01 
+	Parameter QUIT bound to: 2'b10 
+	Parameter OTHER bound to: 2'b11 
+INFO: [Synth 8-226] default block is never used [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/ram_loader.v:76]
+INFO: [Synth 8-256] done synthesizing module 'ram_loader' (11#1) [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/ram_loader.v:19]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_8Kword' [c:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/.Xil/Vivado-3276-Eleclab86/realtime/blk_mem_8Kword_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_8Kword' (12#1) [c:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/.Xil/Vivado-3276-Eleclab86/realtime/blk_mem_8Kword_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'AHBrom' (13#1) [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBrom.v:17]
+INFO: [Synth 8-638] synthesizing module 'AHBram' [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBram.v:17]
+	Parameter ADDR_WIDTH bound to: 14 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'blk_mem_4Kword' [c:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/.Xil/Vivado-3276-Eleclab86/realtime/blk_mem_4Kword_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_4Kword' (14#1) [c:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/.Xil/Vivado-3276-Eleclab86/realtime/blk_mem_4Kword_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'AHBram' (15#1) [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBram.v:17]
+INFO: [Synth 8-638] synthesizing module 'AHBgpio' [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBgpio.v:20]
+INFO: [Synth 8-256] done synthesizing module 'AHBgpio' (16#1) [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBgpio.v:20]
+INFO: [Synth 8-638] synthesizing module 'AHBuart' [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBuart.v:27]
+INFO: [Synth 8-638] synthesizing module 'FIFO' [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/fifo.v:43]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FIFO' (17#1) [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/fifo.v:43]
+INFO: [Synth 8-638] synthesizing module 'uart' [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/uart.v:18]
+	Parameter INCR bound to: 20'b00000000110010010101 
+	Parameter INIT bound to: 2'b00 
+	Parameter IDLE bound to: 2'b01 
+	Parameter RECV bound to: 2'b10 
+	Parameter FINI bound to: 2'b11 
+INFO: [Synth 8-256] done synthesizing module 'uart' (18#1) [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/uart.v:18]
+INFO: [Synth 8-256] done synthesizing module 'AHBuart' (19#1) [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBuart.v:27]
+INFO: [Synth 8-256] done synthesizing module 'AHBliteTop' (20#1) [C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/Design/AHBliteTop.v:15]
+WARNING: [Synth 8-3917] design AHBliteTop has port JA[7] driven by constant 0
+WARNING: [Synth 8-3917] design AHBliteTop has port JA[6] driven by constant 0
+WARNING: [Synth 8-3917] design AHBliteTop has port JA[3] driven by constant 1
+WARNING: [Synth 8-3917] design AHBliteTop has port JA[1] driven by constant 0
+WARNING: [Synth 8-3917] design AHBliteTop has port JA[0] driven by constant 0
+WARNING: [Synth 8-3917] design AHBliteTop has port aclMOSI driven by constant 0
+WARNING: [Synth 8-3917] design AHBliteTop has port aclSCK driven by constant 0
+WARNING: [Synth 8-3917] design AHBliteTop has port aclSSn driven by constant 1
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:02:49 ; elapsed = 00:39:09 . Memory (MB): peak = 788.508 ; gain = 612.246
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:49 ; elapsed = 00:39:09 . Memory (MB): peak = 788.508 ; gain = 612.246
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:03:00 ; elapsed = 00:39:17 . Memory (MB): peak = 976.406 ; gain = 800.145
+46 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 976.406 ; gain = 187.898
+reset_run CORTEXM0DS_synth_1
+reset_run blk_mem_4Kword_synth_1
+launch_runs synth_1
+[Wed Mar 23 10:29:09 2022] Launched CORTEXM0DS_synth_1, blk_mem_4Kword_synth_1...
+Run output will be captured here:
+CORTEXM0DS_synth_1: C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/CORTEXM0DS_synth_1/runme.log
+blk_mem_4Kword_synth_1: C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/blk_mem_4Kword_synth_1/runme.log
+[Wed Mar 23 10:29:09 2022] Launched synth_1...
+Run output will be captured here: C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Mar 23 10:32:15 2022] Launched impl_1...
+Run output will be captured here: C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Mar 23 10:33:47 2022] Launched impl_1...
+Run output will be captured here: C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 97 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-43] Netlist 'AHBliteTop' is not ideal for floorplanning, since the cellview 'CORTEXM0DS_cortexm0ds_logic' defined in file 'CORTEXM0DS.edf' contains large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/.Xil/Vivado-3276-Eleclab86/dcp/AHBliteTop_early.xdc]
+Finished Parsing XDC File [c:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/.Xil/Vivado-3276-Eleclab86/dcp/AHBliteTop_early.xdc]
+Parsing XDC File [c:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/.Xil/Vivado-3276-Eleclab86/dcp/AHBliteTop.xdc]
+Finished Parsing XDC File [c:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/.Xil/Vivado-3276-Eleclab86/dcp/AHBliteTop.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.562 . Memory (MB): peak = 1228.813 ; gain = 4.473
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.562 . Memory (MB): peak = 1228.813 ; gain = 4.473
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 1299.277 ; gain = 123.422
+open_hw
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.2
+  **** Build date : Jun 26 2015-16:56:39
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210274628288A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210274628288A]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210274628288A
+set_property PROGRAM.FILE {C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/impl_1/AHBliteTop.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/impl_1/AHBliteTop.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/impl_1/AHBliteTop.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Wed Mar 23 10:41:17 2022] Launched impl_1...
+Run output will be captured here: C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Wed Mar 23 10:42:22 2022] Launched synth_1...
+Run output will be captured here: C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Mar 23 10:44:50 2022] Launched impl_1...
+Run output will be captured here: C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Mar 23 10:46:36 2022] Launched impl_1...
+Run output will be captured here: C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/lab/Documents/EmbeddedSystems/Wednesday/DES_SoC/DES_SoC/Hardware/DemoSystem.runs/impl_1/AHBliteTop.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-3175] Target jsn-Nexys4-210274628288A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210274628288A
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 23 12:36:51 2022...

@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lab/Documents/DES_SoC_2021/Hardware/Design/AHBuart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AHBuart
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lab/Documents/DES_SoC_2021/Hardware/Testbench/TB_AHBuart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB_AHBuart
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lab/Documents/DES_SoC_2021/Hardware/Design/fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lab/Documents/DES_SoC_2021/Hardware/Design/uart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lab/Documents/DES_SoC_2021/Hardware/DemoSystem.sim/sim_uart/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

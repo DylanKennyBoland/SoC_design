@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../Design/AHBuart.v"
+verilog xil_defaultlib  "../../../Testbench/TB_AHBuart.v"
+verilog xil_defaultlib  "../../../Design/fifo.v"
+verilog xil_defaultlib  "../../../Design/uart.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

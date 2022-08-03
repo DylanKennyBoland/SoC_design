@@ -1,0 +1,45 @@
+INFO: [Common 17-701] A license check has taken more than 10 seconds to complete. This may indicate that there is a performance issue with one or more license servers listed in XILINXD_LICENSE_FILE or LM_LICENSE_FILE, or that the license servers are just not responding at all. Try setting the FLEXLM_DIAGNOSTICS environment variable to 3 and running Vivado again to get more information.
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sat Mar 20 13:42:23 2021
+# Process ID: 2676
+# Log file: C:/Users/lab/Documents/DES_SoC_2021/Hardware/vivado.log
+# Journal file: C:/Users/lab/Documents/DES_SoC_2021/Hardware\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lab/Documents/DES_SoC_2021/Hardware/DemoSystem.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/bmulkeen/VivadoProjects/DES_M0_SoC_2018/Hardware' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/lab/Documents/DES_SoC_2021/Hardware/Source/uart2.v', nor could it be found using path 'C:/Users/bmulkeen/VivadoProjects/DES_M0_SoC_2018/Hardware/Source/uart2.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/lab/Documents/DES_SoC_2021/Hardware/Source/fifo.v', nor could it be found using path 'C:/Users/bmulkeen/VivadoProjects/DES_M0_SoC_2018/Hardware/Source/fifo.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/lab/Documents/DES_SoC_2021/Hardware/Source/uart_RXonly.v', nor could it be found using path 'C:/Users/bmulkeen/VivadoProjects/DES_M0_SoC_2018/Hardware/Source/uart_RXonly.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/lab/Documents/DES_SoC_2021/Hardware/Source/ram_loader.v', nor could it be found using path 'C:/Users/bmulkeen/VivadoProjects/DES_M0_SoC_2018/Hardware/Source/ram_loader.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/lab/Documents/DES_SoC_2021/Hardware/Source/AHBuart2.v', nor could it be found using path 'C:/Users/bmulkeen/VivadoProjects/DES_M0_SoC_2018/Hardware/Source/AHBuart2.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/lab/Documents/DES_SoC_2021/Hardware/Source/AHBgpio.v', nor could it be found using path 'C:/Users/bmulkeen/VivadoProjects/DES_M0_SoC_2018/Hardware/Source/AHBgpio.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/lab/Documents/DES_SoC_2021/Hardware/Source/AHBbram.v', nor could it be found using path 'C:/Users/bmulkeen/VivadoProjects/DES_M0_SoC_2018/Hardware/Source/AHBbram.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/lab/Documents/DES_SoC_2021/Hardware/Source/AHBprom.v', nor could it be found using path 'C:/Users/bmulkeen/VivadoProjects/DES_M0_SoC_2018/Hardware/Source/AHBprom.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/lab/Documents/DES_SoC_2021/Hardware/Source/reset_gen.v', nor could it be found using path 'C:/Users/bmulkeen/VivadoProjects/DES_M0_SoC_2018/Hardware/Source/reset_gen.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/lab/Documents/DES_SoC_2021/Hardware/Source/clock_gen.v', nor could it be found using path 'C:/Users/bmulkeen/VivadoProjects/DES_M0_SoC_2018/Hardware/Source/clock_gen.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/lab/Documents/DES_SoC_2021/Hardware/Source/status_ind.v', nor could it be found using path 'C:/Users/bmulkeen/VivadoProjects/DES_M0_SoC_2018/Hardware/Source/status_ind.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/lab/Documents/DES_SoC_2021/Hardware/Source/AHBMUX.v', nor could it be found using path 'C:/Users/bmulkeen/VivadoProjects/DES_M0_SoC_2018/Hardware/Source/AHBMUX.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/lab/Documents/DES_SoC_2021/Hardware/Source/AHBDCD-full.v', nor could it be found using path 'C:/Users/bmulkeen/VivadoProjects/DES_M0_SoC_2018/Hardware/Source/AHBDCD-full.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/lab/Documents/DES_SoC_2021/Hardware/Source/AHBspi.v', nor could it be found using path 'C:/Users/bmulkeen/VivadoProjects/DES_M0_SoC_2018/Hardware/Source/AHBspi.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/lab/Documents/DES_SoC_2021/Hardware/Source/AHBliteTop_SPI.v', nor could it be found using path 'C:/Users/bmulkeen/VivadoProjects/DES_M0_SoC_2018/Hardware/Source/AHBliteTop_SPI.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/lab/Documents/DES_SoC_2021/Hardware/Source/Nexys4_MasterAccel.xdc', nor could it be found using path 'C:/Users/bmulkeen/VivadoProjects/DES_M0_SoC_2018/Hardware/Source/Nexys4_MasterAccel.xdc'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/lab/Documents/DES_SoC_2021/Hardware/Source/AHBgpio.v', nor could it be found using path 'C:/Users/bmulkeen/VivadoProjects/DES_M0_SoC_2018/Hardware/Source/AHBgpio.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/lab/Documents/DES_SoC_2021/Hardware/Source/uart2.v', nor could it be found using path 'C:/Users/bmulkeen/VivadoProjects/DES_M0_SoC_2018/Hardware/Source/uart2.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/lab/Documents/DES_SoC_2021/Hardware/Source/fifo.v', nor could it be found using path 'C:/Users/bmulkeen/VivadoProjects/DES_M0_SoC_2018/Hardware/Source/fifo.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/lab/Documents/DES_SoC_2021/Hardware/Source/AHBuart2.v', nor could it be found using path 'C:/Users/bmulkeen/VivadoProjects/DES_M0_SoC_2018/Hardware/Source/AHBuart2.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 711.551 ; gain = 171.699
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_gpio
+update_compile_order -fileset sim_uart
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Mar 20 13:54:58 2021...
